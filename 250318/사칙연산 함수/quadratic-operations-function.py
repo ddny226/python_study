@@ -8,7 +8,7 @@ def cal(a, o, c):
     elif o == '-':
         result = a-c
     elif o == '/':
-        result = a/c
+        result = a//c
     elif o == '*':
         result = a*c
     else:
@@ -17,5 +17,6 @@ def cal(a, o, c):
     print(f"{a} {o} {c} = {result}")
 
 cal(a,o,c)
+
 
 
