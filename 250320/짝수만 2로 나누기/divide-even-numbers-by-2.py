@@ -4,9 +4,7 @@ arr = list(map(int, input().split()))
 # Please write your code here.
 def even(arr):
     for i in range(n):
-        if i % 2 == 0:
-            if arr[i] == 1:
-                continue
+        if arr[i] % 2 == 0: 
             arr[i] = arr[i] // 2 
         else: 
             continue
